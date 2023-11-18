@@ -16,3 +16,63 @@ In my learning I use such online resources as:
 - frontendmentor
 - frameworks documetation, books
 and other...
+
+### Skills(this list contains I've ever used during my study process)
+- HTML5
+- CSS (including animations, flexbox, css grid and css variables, accessibility)
+- JavaScript
+- Chart.js
+- jQuery
+- Angular (basic)
+- Sass/Scss
+- LESS
+- Git
+- BEM methodology
+- Gulp 4 (basic)
+- Node.js (basic)
+- Npm(basic)
+- Figma
+- Webpack
+
+### Code example:
+```
+function smallEnough(a, limit){
+ return a.every(elem => elem <= limit);
+}
+```
+```
+function filterHomogenous(arrays) {
+  return arrays.filter(i => {
+    return i.length === 1 || i.every(i => typeof i === 'number') && i.length !== 0 || i.every(i => typeof i === 'string') && i.length !== 0;
+    })
+}
+```
+```
+const whosOnline = (friends) => {
+  const resultObj = {};
+  friends.forEach(i => {
+    if (i.status === 'online' && i.lastActivity > 10) {
+      if (resultObj.hasOwnProperty('away')) {
+        resultObj.away.push(i.username);
+      } else {
+         resultObj.away = [i.username];
+      }
+    } else if (i.status === 'online' && i.lastActivity <= 10) {
+      if (resultObj.hasOwnProperty('online')) {
+        resultObj.online.push(i.username);
+      } else {
+        resultObj.online = [i.username];
+      }
+    } else {
+      if (resultObj.hasOwnProperty('offline')) {
+        resultObj.offline.push(i.username);
+      } else {
+        resultObj.offline = [i.username];
+      }
+
+    }
+  })
+
+  return resultObj;
+}
+```
