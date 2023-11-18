@@ -76,3 +76,21 @@ const whosOnline = (friends) => {
   return resultObj;
 }
 ```
+
+### Experience:
+Some training projects that I did:
+- [Tip-calculator-app-challenge-hub](https://tip-calculator-app-challenge-hub.vercel.app/)
+- [Time-tracking-dashboard](https://time-tracking-dashboard-umber.vercel.app/)
+- [Image-gallery](https://image-gallery-liart.vercel.app/)
+- [Analog-clock-js](https://analog-clock-js.vercel.app/)
+- [More in my GitHub](https://github.com/SuhodolecA)
+
+### Education:
+- October 2019 - February 2020 IT SPECIALISTS TRAINING CENTER SkillUP, FRONT-END DEVELOPING.
+- 2012-2013 Institute for Advanced Qualifications and Retraining BNTU, Logistics, Logistician - economist.
+- 2007-2012 Belarusian National Technical University, Instrument making, Electrician - engineer.
+
+### Languages:
+- Russian - Native
+- English - B1
+- Polish - A2
