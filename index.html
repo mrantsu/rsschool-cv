@@ -129,6 +129,101 @@
                         </li>
                     </ul>
                 </section>
+                <section class="cv-main__education">
+                    <h2 class="cv-main__education-title secondary-title">Education &amp; Learning</h2>
+                    <ul class="cv-main__education-list">
+                        <li class="cv-main__education-list__item">
+                            <h4 class="cv-main__education-list__item-profession fourthly-title">Front-End Developing
+                            </h4>
+                            <p class="cv-main__education-list__item-place info-text">It Specialists Training Center
+                                SkillUP</p>
+                            <p class="cv-main__education-list__item-date info-text">October 2019 - February 2020</p>
+                        </li>
+                        <li class="cv-main__education-list__item">
+                            <h4 class="cv-main__education-list__item-profession fourthly-title">Logistician - Economist
+                            </h4>
+                            <p class="cv-main__education-list__item-place info-text">Institute for Advanced
+                                Qualifications and Retraining Belarusian National Technical University</p>
+                            <p class="cv-main__education-list__item-date info-text">January 2012 - July 2013</p>
+                        </li>
+                        <li class="cv-main__education-list__item">
+                            <h4 class="cv-main__education-list__item-profession fourthly-title">Electrician - Engineer
+                            </h4>
+                            <p class="cv-main__education-list__item-place info-text">Belarusian National Technical
+                                University</p>
+                            <p class="cv-main__education-list__item-date info-text">September 2007 - July 2012</p>
+                        </li>
+                    </ul>
+                    <div class="cv-main__education-code">
+                        <h2 class="cv-main__education-title secondary-title">Code example</h2>
+                        <pre>
+<code>
+function smallEnough(a, limit) {
+&nbsp;&nbsp;return a.every(elem =&gt; elem &lt;= limit);
+}
+</code>
+                        </pre>
+                        <pre>
+<code>
+function isIsogram(str){
+&nbsp;&nbsp;return new Set(<br>&nbsp;&nbsp;str.toLowerCase().split('')).size === str.length<br>&nbsp;&nbsp;);
+}
+</code>
+                        </pre>
+                        <pre>
+<code>
+function deepCount(a) {
+&nbsp;&nbsp;let result = a.length;
+&nbsp;&nbsp;for(let item of a) {
+&nbsp;&nbsp;&nbsp;&nbsp;if(Array.isArray(item)){
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result += deepCount(item);
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;}
+&nbsp;&nbsp;return result;
+}
+</code>
+                        </pre>
+                        <pre>
+<code>
+const validWord = function(dictionary, word){
+&nbsp;&nbsp;const pearseDictionary = dictionary.join('|');
+&nbsp;&nbsp;const regExp = new RegExp(`^(${pearseDictionary})+$`);
+&nbsp;&nbsp;return regExp.test(word);
+};
+</code>
+                        </pre>
+                        <pre>
+<code>
+function zipWith(fn,a0,a1) {
+&nbsp;&nbsp;const result = [];
+&nbsp;&nbsp;let length = (a0.length &gt; a1.length) ? a1.length : &nbsp;&nbsp;a0.length;
+&nbsp;&nbsp;for(let i = 0; i &lt; length; i++){
+&nbsp;&nbsp;&nbsp;&nbsp;result.push(fn(a0[i],a1[i]));
+&nbsp;&nbsp;}
+&nbsp;&nbsp;return result;
+};
+</code>
+                        </pre>
+                        <pre>
+<code>
+function nthFibo(n) {
+&nbsp;&nbsp;let solution;
+&nbsp;&nbsp;if(n &lt;= 2) return n - 1;
+&nbsp;&nbsp;solution = nthFibo(n - 1) + nthFibo(n - 2);
+&nbsp;&nbsp;return solution;
+}
+</code>
+                        </pre>
+                    </div>
+                    <div class="cv-main__education-skills">
+                        <h2 class="cv-main__education-title secondary-title">Skills</h2>
+                        <p class="cv-main__education-skills__list">
+                            HTML5, CSS3, JavaScript, Typescript, Chart.js, jQuery, React.js(basic), Less, Sass, Git, BEM
+                            methodology,
+                            Gulp 4(basic), Node.js(basic), Npm(basic), Figma, English - B1.
+                        </p>
+                    </div>
+                </section>
             </div>
 
         </main>
