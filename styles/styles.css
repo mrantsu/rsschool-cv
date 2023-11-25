@@ -338,4 +338,103 @@ body {
   max-width: 92.5rem;
   margin: 0 auto;
   padding: 0 1.5rem;
+}
+
+.cv-header {
+  padding: 3.2rem 1.7rem 1.6rem;
+  background-color: hsla(193, 74%, 94%, 0.5);
+  margin-bottom: 2.4rem;
+}
+.cv-header .cv-container {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 43.75rem) {
+  .cv-header .cv-container {
+    flex-direction: column;
+  }
+}
+.cv-header-intro {
+  flex-basis: 91%;
+}
+.cv-header-intro__personal-info {
+  display: flex;
+}
+@media (max-width: 43.75rem) {
+  .cv-header-intro__personal-info {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+}
+.cv-header-intro__self-presentation {
+  font-size: 1.3rem;
+  line-height: 1.4;
+  color: hsl(0, 0%, 13%);
+  margin-top: 1.4rem;
+  max-width: 90%;
+}
+@media (max-width: 43.75rem) {
+  .cv-header-intro__self-presentation {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+.cv-header-intro__avatar {
+  width: 12rem;
+  height: 12rem;
+  margin-right: 1.2rem;
+  border: 1px solid hsl(0, 0%, 85%);
+  border-radius: 50%;
+  background: url("../image/photo.jpg") no-repeat center;
+  background-size: cover;
+}
+.cv-header-intro__name {
+  font-weight: 700;
+  font-size: 2.3rem;
+  line-height: 1.31;
+  color: hsl(0, 0%, 13%);
+  margin-top: 0.6rem;
+}
+.cv-header-intro__title {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  color: hsl(195, 73%, 41%);
+}
+.cv-header-contacts {
+  flex-basis: 8%;
+}
+@media (max-width: 43.75rem) {
+  .cv-header-contacts {
+    text-align: center;
+  }
+}
+.cv-header-contacts__list-item + .cv-header-contacts__list-item {
+  margin-top: 0.7rem;
+}
+@media (max-width: 43.75rem) {
+  .cv-header-contacts__list-item + .cv-header-contacts__list-item {
+    margin-top: 0;
+  }
+}
+@media (max-width: 43.75rem) {
+  .cv-header-contacts__list {
+    flex-direction: column;
+  }
+}
+.cv-header-contacts__list-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.4;
+  color: hsl(195, 73%, 41%);
+  margin-bottom: 0.2rem;
+}
+.cv-header-contacts__list-link {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  font-weight: 600;
+  color: hsl(0, 0%, 0%);
 }/*# sourceMappingURL=styles.css.map */
