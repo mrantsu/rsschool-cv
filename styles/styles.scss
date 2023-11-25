@@ -1,0 +1,36 @@
+@import "normalize.scss";
+
+// === common styles ===
+:root {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0.4rem;
+}
+
+body {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.cv-container {
+  max-width: 92.5rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+// === / common styles ===
