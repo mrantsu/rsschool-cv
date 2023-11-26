@@ -507,4 +507,17 @@ body {
     width: 25rem;
     height: 12rem;
   }
+}
+
+.cv-footer {
+  text-align: center;
+  padding: 1em;
+  margin-top: 1.5rem;
+  background-color: hsla(193, 74%, 94%, 0.5);
+}
+.cv-footer svg {
+  width: 5rem;
+}
+.cv-footer p + p {
+  margin-top: 1.2rem;
 }/*# sourceMappingURL=styles.css.map */
