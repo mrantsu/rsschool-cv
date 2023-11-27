@@ -215,6 +215,13 @@ body {
     &-code {
       margin-bottom: 2rem;
     }
+
+    &-skills__list {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.5rem;
+    }
   }
 
   &__projects-list__item + &__projects-list__item {

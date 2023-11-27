@@ -506,6 +506,12 @@ body {
 .cv-main__education-list, .cv-main__education-code {
   margin-bottom: 2rem;
 }
+.cv-main__education-skills__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
 .cv-main__projects-list__item + .cv-main__projects-list__item {
   margin-top: 2rem;
 }
