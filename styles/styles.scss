@@ -21,6 +21,35 @@ ul {
   margin-bottom: 0.4rem;
 }
 
+.secondary-title {
+  font-size: 1.8rem;
+  line-height: 1.43;
+  font-weight: 500;
+  color: hsl(195, 73%, 41%);
+  margin-bottom: 0.5rem;
+}
+
+.thirdly-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.43;
+  color: hsl(0, 0%, 13%);
+}
+
+.fourthly-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.67;
+  color: hsl(0, 0%, 13%);
+}
+
+.info-text {
+  font-family: "Prata", serif;
+  font-size: 1.35rem;
+  line-height: 1.45;
+  color: hsl(0, 0%, 47%);
+}
+
 body {
   font-size: 1.5rem;
   font-family: "Poppins", sans-serif;
@@ -219,6 +248,29 @@ body {
     @media (max-width: 25rem) {
       width: 25rem;
       height: 12rem;
+    }
+  }
+
+   &__education-code {
+    pre + pre {
+      margin-top: 1em;
+    }
+
+    pre {
+      background-color: hsla(0, 0%, 80%, 0.99);
+      border-radius: 1em;
+      width: 100%;
+      height: 100%;
+      padding: 0 1em;
+      white-space: pre-line;
+
+      @media (max-width: 34.375rem) {
+        font-size: 0.8em;
+      }
+
+      @media (max-width: 25rem) {
+        font-size: 0.7em;
+      }
     }
   }
 }
